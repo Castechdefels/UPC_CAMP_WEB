@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productes de l'hort</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>🍅 Productes de l'hort del campus del Baix Llobretat: UPC CAMP</h1>
+
+  <img src="https://cbl.upc.edu/ca/Portada/imatges_portada/carrousel0_1170x200.jpg/@@images/image/huge" 
+  alt="Imatge del campus">
+
+  <div id="products"></div>
+
+  <script src="js/products.js"></script>
+
+<!-- Botó per mostrar el xat amagat -->
+<button id="hiddenChatToggle" class="hidden-chat-toggle" aria-label="Mostrar xat">Xat</button>
+
+<!-- Xat amagat -->
+<div id="hiddenChat" class="hidden-chat" aria-hidden="true" style="display:none">
+  <div class="hidden-chat-header">
+    <span>Flowy</span>
+    <button id="hiddenChatClose" class="hidden-chat-close" aria-label="Tancar">✕</button>
+  </div>
+  <div id="hiddenChatMessages" class="hidden-chat-messages"></div>
+  <form id="hiddenChatForm" class="hidden-chat-form">
+    <input id="hiddenChatInput" type="text" placeholder="Escriu la teva pregunta..." autocomplete="off" />
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+
+<script src="js/chat.js"></script>
+</body>
+</html>

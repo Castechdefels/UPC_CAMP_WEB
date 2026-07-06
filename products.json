@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Tomàquet",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 2.8,
+    "stock": 45,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato_je.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mongeta tendra",
+    "category": "Llegum",
+    "unit": "kg",
+    "price": 3.2,
+    "stock": 18,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Four_Different_Varieties_of_Green_Beans_%28Phaseolus_vulgaris%29.jpg/960px-Four_Different_Varieties_of_Green_Beans_%28Phaseolus_vulgaris%29.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Meló",
+    "category": "Fruita",
+    "unit": "unitat",
+    "price": 4.5,
+    "stock": 12,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cantaloupes.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Carbassó",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 1.95,
+    "stock": 30,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Courgette.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Cogombre",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 2.1,
+    "stock": 25,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumber.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Enciam",
+    "category": "Verdura",
+    "unit": "unitat",
+    "price": 1.4,
+    "stock": 40,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lactuca_sativa-whole_plant_top.JPG/960px-Lactuca_sativa-whole_plant_top.JPG"
+  },
+  {
+    "id": 7,
+    "name": "Pebrot vermell",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 3.75,
+    "stock": 16,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_pepper.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Albergínia",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 2.6,
+    "stock": 22,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aubergine.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Ceba",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 1.8,
+    "stock": 50,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Onion_on_White.JPG"
+  },
+  {
+    "id": 10,
+    "name": "Pastanaga",
+    "category": "Hortalissa",
+    "unit": "kg",
+    "price": 2.25,
+    "stock": 35,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carrot.jpg"
+  }
+]
