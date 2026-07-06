@@ -9,6 +9,28 @@
 </head>
 <body>
 
+  <!-- Menú responsiu -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">🍅 UPC CAMP</div>
+      <button class="navbar-toggle" id="navbarToggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#inici">Inici</a></li>
+        <li><a href="#qui-som">Qui som</a></li>
+        <li><a href="#productes">Els nostres productes</a></li>
+        <li><a href="#receptes">Receptes de la temporada</a></li>
+        <li><a href="#calendari">Calendari de la temporada</a></li>
+        <li><a href="#fires">Fires i mercats</a></li>
+        <li><a href="#sostenibilitat">Sostenibilitat</a></li>
+        <li><a href="#contacte">Contacte</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <h1>🍅 Productes de l'hort del campus del Baix Llobretat: UPC CAMP</h1>
 
   <img src="https://cbl.upc.edu/ca/Portada/imatges_portada/carrousel0_1170x200.jpg/@@images/image/huge" 
@@ -17,8 +39,9 @@
   <div id="products"></div>
 
   <script src="js/products.js"></script>
+  <script src="js/menu.js"></script>
 
-<!-- Botó per mostrar el xat amagat -->
+  <!-- Botó per mostrar el xat amagat -->
 <button id="hiddenChatToggle" class="hidden-chat-toggle" aria-label="Mostrar xat">Xat</button>
 
 <!-- Xat amagat -->

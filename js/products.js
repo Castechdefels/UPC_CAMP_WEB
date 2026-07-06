@@ -1,6 +1,6 @@
 async function loadProducts() {
   try {
-    const response = await fetch("products.json");
+    const response = await fetch("data/products.json");
 
     if (!response.ok) {
       throw new Error("No s'ha pogut carregar el fitxer JSON.");

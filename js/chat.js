@@ -80,7 +80,7 @@
 
   async function loadProducts(){
     try{
-      const res = await fetch('/products.json');
+      const res = await fetch('/data/products.json');
       if(!res.ok) return [];
       const data = await res.json();
       return data.map(p=>({ name: p.name }));
